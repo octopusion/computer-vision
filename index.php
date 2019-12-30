@@ -11,7 +11,7 @@ $connectionString = "DefaultEndpointsProtocol=https;AccountName=ruslyvision;Acco
 $containerName = "dicoding";
 
 // Create blob client.
-$blobClient = BlobRestProxy::createBlobService($connectionString);
+// $blobClient = BlobRestProxy::createBlobService($connectionString);
 
 
 ?>
