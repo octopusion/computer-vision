@@ -30,7 +30,7 @@ $containerName = "dicoding";
 				<span class="border-top my-3"></span>
 			</div>
 		<div class="mt-4 mb-2">
-			<form class="d-flex justify-content-lefr" action="index.php" method="post" enctype="multipart/form-data">
+			<form class="d-flex justify-content-lefr" action="computervision.php" method="post" enctype="multipart/form-data">
 				<input type="file" name="fileToUpload" accept=".jpeg,.jpg,.png" required="">
 				<input type="submit" name="submit" value="Upload">
 			</form>
@@ -58,7 +58,7 @@ $containerName = "dicoding";
 							<td>
 								<form action="computervision.php" method="post">
 									<input type="hidden" name="url" value="<?php echo $blob->getUrl()?>">
-									<input type="submit" name="submit" value="Analyze!" class="btn btn-primary">
+									<input type="submit" name="submit" value="Analyze" class="btn btn-primary">
 								</form>
 							</td>
 						</tr>
