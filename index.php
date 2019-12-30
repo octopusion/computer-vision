@@ -8,7 +8,7 @@ use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=".ruslyvision";AccountKey=".ov+42MuuCLUOdoDuKaNBWRXdJ+lVog0oYx2wjNH2Ef6wY5PCDBv3Oknx7sK3ecsARRxQGAvB3vOAkbvU5KgioA==;
+$connectionString = "DefaultEndpointsProtocol=https;AccountName="ruslyvision";AccountKey="ov+42MuuCLUOdoDuKaNBWRXdJ+lVog0oYx2wjNH2Ef6wY5PCDBv3Oknx7sK3ecsARRxQGAvB3vOAkbvU5KgioA==;
 $containerName = "dicoding";
 
 // Create blob client.
