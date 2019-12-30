@@ -19,7 +19,10 @@ if (isset($_POST['submit'])) {
 	// echo fread($content, filesize($fileToUpload));
 	$blobClient->createBlockBlob($containerName, $fileToUpload, $content);
 	header("Location: index.php");
-
+}
+$listBlobsOptions = new ListBlobsOptions();
+$listBlobsOptions->setPrefix("");
+$result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 ?>
 <!DOCTYPE html>
 <html>
