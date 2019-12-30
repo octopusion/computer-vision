@@ -22,7 +22,7 @@ if (isset($_POST['submit'])) {
     </head>
         <body>
 
-				<a class="nav-link" href="http://localhost/blobs/index.php">Home</a>
+				<a class="nav-link" href="https://rusly.azurewebsites.net/index.php">Home</a>
 
 		<main role="main" class="container">
     		<div class="starter-template">
