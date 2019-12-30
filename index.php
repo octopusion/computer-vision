@@ -10,7 +10,7 @@ use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
 $connectionString = "DefaultEndpointsProtocol=https;AccountName="ruslyvision";AccountKey="ov+42MuuCLUOdoDuKaNBWRXdJ+lVog0oYx2wjNH2Ef6wY5PCDBv3Oknx7sK3ecsARRxQGAvB3vOAkbvU5KgioA==;
 $containerName = "dicoding";
-
+echo $connectionString;
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
